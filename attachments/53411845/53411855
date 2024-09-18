@@ -1,6 +1,0 @@
-CC=gcc 
-CFLAGS=-I.
-hello: hello.o hellofunc.o
-	$(CC) -o hello hello.o hellofunc.o
-
-
